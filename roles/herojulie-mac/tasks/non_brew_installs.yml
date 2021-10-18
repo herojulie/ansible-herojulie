@@ -1,0 +1,9 @@
+- name: Install Oh My Zsh
+  shell: sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  ignore_errors: yes
+
+- name: Create nvm directory
+  file:
+    path: ~/.nvm
+    state: directory
+    mode: '0755'

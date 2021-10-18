@@ -1,0 +1,19 @@
+homebrew_packages:
+  - awscli
+  - dust
+  - ffmpeg
+  - git
+  - jq
+  - nginx
+  - nvm
+  - postgres
+  - sqlite
+  - yarn
+  - zsh
+  - zsh-completions
+
+homebrew_cask_packages:
+  - docker
+  - iterm2
+  - jetbrains-toolbox
+  - google-chrome

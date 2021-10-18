@@ -1,0 +1,5 @@
+[user]
+	email = herojulie@gmail.com
+	name = herojulie
+[core]
+	excludesfile = /Users/julieyang/.gitignore_global
