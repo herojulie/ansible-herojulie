@@ -7,7 +7,7 @@
 
 - name: dotfiles links
   file:
-    src: '{{ ansible_env.PWD }}/roles/herojulie-mac/files/dotfiles/{{ item }}'
+    src: '{{ ansible_env.PWD }}/roles/common/files/dotfiles/{{ item }}'
     path: '~/.{{ item }}'
     state: link
   loop:

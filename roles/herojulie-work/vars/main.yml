@@ -1,0 +1,6 @@
+homebrew_packages:
+  - ffmpeg
+  - nvm
+  - postgres
+  - yarn
+  
